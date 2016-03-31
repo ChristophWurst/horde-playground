@@ -1,0 +1,15 @@
+{
+	"config": {
+		"secure-http": false
+	},
+	"repositories": [
+		{
+			"type": "pear",
+			"url": "http://pear.horde.org"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"pear-pear.horde.org/Horde_Mail": "^2.6.3@stable"
+	}
+}
